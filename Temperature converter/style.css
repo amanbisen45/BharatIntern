@@ -1,0 +1,77 @@
+body {
+    font-family: 'Arvo', serif;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(175, 241, 219);
+}
+
+
+/* ________heading ___________ */
+
+h1 {
+    font-size: 35px;
+    color: black;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #022526, #84c9cb, #022526);
+}
+
+
+/* _________Container__________ */
+
+
+.container {
+    height: 40vh;
+    display: inline-block;
+    padding: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: linear-gradient(to right, #022526, #78c8cb, #022526);
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+input[type="number"] {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+select {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #db4220;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #870503;
+}
+
+/* _________Result___________ */
+
+
+.result {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px;
+}
